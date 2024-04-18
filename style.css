@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FAEDCD;
+    font-family: "微軟正黑體";
+    font-size: 22px;
+}
+
+.title {
+    text-align: center;
+}
+
+header {
+    background-color: #D4A373;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    padding: 20px;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.card {
+    margin: 15px 100px;
+    border-radius: 10px;
+    padding: 40px;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+}
+
+.card img {
+    margin-left: 20px;
+}
+.card div {
+    margin-left: 20px;
+}
+
+.left {
+    float: left;
+    padding-left: 50px;
+}
+
+.right {
+    float: right;
+    padding-right: 30px;
+}
+
+.go {
+    float: right;
+    margin-top: 250px;
+    margin-right: 250px;
+}
+
+progress {
+    width: 250px;
+    height: 30px;
+}
+
+.color {
+    color: #D4A373;
+    font-size: 28px;
+}
+
+p a:hover {
+    background-color: #E9EDC9;
+    color: lightblue;
+}
+
+a img:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    background-color: #CCD5AE;
+    text-align: center;
+    padding: 10px;
+    color: #444444;
+}
